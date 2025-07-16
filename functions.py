@@ -14,5 +14,11 @@ def menu():
         print("7.) 🗑️  Eliminar producto del stock")
         print("8.) 🧾  Ver resumen completo del día")
         print("9. )🚪  Salir del programa")
-        
+
+        opcion = input("ingrese opcion a consultar o escribe 'salir' o presiona 9 \n")
+        if opcion =="9"or opcion == "salir":
+            print("haz salido del programa")
+            break
+
+
 
